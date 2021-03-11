@@ -1,3 +1,5 @@
 libgeos-dev
 libjq-dev
 libv8-dev
+libprotobuf-dev
+libudunits2-dev
