@@ -13,7 +13,7 @@ library(ggplot2)
 library(ggrepel)
 source("leafletScriptfinal.R")
 
-server <- function(input, output) {
+shinyServer <- function(input, output, session) {
   state <- reactiveValues()
   
   observe ({
