@@ -1,5 +1,8 @@
 library(shiny)
 library(shinydashboard)
+library(raster)
+library(ggplot2)
+library(ggrepel)
 
 shinyServer <- function(input, output, session) {
   output$TorontoInfection <- renderPlot({ggplot(tor_inf_df, 
