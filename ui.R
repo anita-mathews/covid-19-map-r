@@ -8,9 +8,6 @@ library(RColorBrewer)
 library(httr)
 library(geojsonio)
 library(geojson)
-library(raster)
-library(ggplot2)
-library(ggrepel)
 source("leafletScriptfinal.R")
 
 dashboardPage(
