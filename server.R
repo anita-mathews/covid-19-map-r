@@ -160,5 +160,7 @@ shinyServer <- function(input, output, session) {
     
   })
   
+  observe({invalidateLater(10000) cat(".")})
+  
   
 }
