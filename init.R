@@ -1,4 +1,6 @@
-my_packages = c("shinydashboard", "leaflet", "rgeos", "dplyr", "geojson", "geojsonio")
+my_packages = c("shinydashboard", "leaflet", "rgeos", "dplyr",
+                "geojson", "geojsonio", "viridis", "RColorBrewer",
+                "httr", "raster", "ggplot2", "ggrepel")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
